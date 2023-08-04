@@ -18,6 +18,8 @@ public class View extends javax.swing.JFrame {
      */
     public View() {
         initComponents();
+       setSize(800,400);
+       setResizable(false);
     }
 
     /**
