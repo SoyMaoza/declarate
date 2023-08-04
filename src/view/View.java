@@ -4,7 +4,7 @@
  */
 package view;
 
-import javax.swing.ImageIcon;
+import javax.swing.Icon;
 import javax.swing.JOptionPane;
 
 /**
@@ -18,8 +18,8 @@ public class View extends javax.swing.JFrame {
      */
     public View() {
         initComponents();
-       setSize(800,400);
-       setResizable(false);
+        setSize(800, 400);
+        setResizable(false);
     }
 
     /**
@@ -91,8 +91,9 @@ public class View extends javax.swing.JFrame {
 
     private void btn_yesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_yesActionPerformed
         // TODO add your handling code here:
-        JOptionPane.showMessageDialog(null, "sabía que dirias que sí :3"); 
-        JOptionPane.showMessageDialog(null, "MARAVILLOSA JUGADA 8)");
+        JOptionPane.showMessageDialog(null, "Sabía que dirías que sí :3", "Te amo <3", JOptionPane.PLAIN_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Maravillosa jugada 8)", "Viste que no era dificil", JOptionPane.PLAIN_MESSAGE);{    }
+       
         System.exit(0);
     }//GEN-LAST:event_btn_yesActionPerformed
 
